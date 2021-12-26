@@ -44,9 +44,9 @@ void Book::searchBookByName(string& nameSearchKeywords,Book*& booksClassHeadlist
              << tmp->kind << endl;
       }
     }
-    // booksClassHeadlist[i];
   }
-  // for()
 }
-// void searchBookByAuther(string& tmp);
+void searchBookByAuther(string& tmp){
+  
+}
 // void searchBookByAll(string& tmp);
