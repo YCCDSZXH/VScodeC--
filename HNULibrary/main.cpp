@@ -52,7 +52,6 @@ int main() {
   string a = "邓";
   b1.searchBookByName(a, tmp);
   // b1.printBookListSingle();
-
   // if(b1.teacher())cout << 1000;
 
   // Student s;
