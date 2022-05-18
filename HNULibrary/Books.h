@@ -13,7 +13,8 @@ class Book {
   Book* creatBookListAll();
   void printBookListSingle();
   void searchBookByName(string& nameSearchKeywords,Book*&);
-  void searchBookByAuther(string& tmp,Book*&);
+  void searchBookByAuther(string& autherSearchKeywords,Book*&);
+  void searchBookByISBN(string& ISBNSearchKeywords,Book*&);
   void searchBookByAll(string& tmp,Book*&);
 
 };
